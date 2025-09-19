@@ -122,6 +122,18 @@
       font-size: 0.9rem;
     }
 
+     .social-links {
+      margin-top: 1rem;
+     }
+    .social-links a {
+     color: #000; /* black icons */
+     font-size: 28px;
+     margin: 0 12px;
+     transition: color 0.3s ease;
+    }
+    .social-links a:hover {
+     color: #f47216; /* your secondary orange on hover */
+     }
     /* Responsive */
     @media (max-width: 768px) {
       header {
@@ -143,6 +155,8 @@
     }
   </style>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@500&display=swap" rel="stylesheet">
+<!-- Add Font Awesome CDN in <head> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
   <header>
@@ -192,8 +206,18 @@
     <p>📍 Location: Hyderabad, India</p>
   </section>
 
-  <footer>
-    <p>🐘 Polishetti © 2025 | Healthy Foods for a Stronger Tomorrow</p>
-  </footer>
+
+
+<footer>
+  <p>🐘 Polishetti © 2025 | Healthy Foods for a Stronger Tomorrow</p>
+  <div class="social-links">
+    <a href="https://www.facebook.com/polishetti" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://x.com/polishetti" target="_blank"><i class="fab fa-x-twitter"></i></a>
+    <a href="https://www.linkedin.com/company/polishetti" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.instagram.com/poli_shetti" target="_blank"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+
 </body>
 </html>
